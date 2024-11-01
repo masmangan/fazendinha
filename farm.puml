@@ -1,18 +1,21 @@
 @startuml
-
-class Animal {
-- name : String
+abstract Animal {
+# name : String
 
 + talk() : void
 }
 
 class Cat {
 
-eat() : void
++ eat() : void
 }
 
 class Dog
 
 class Main
 
+Animal <|-- Cat
+Animal <|-- Dog
+
+Main .. Animal
 @enduml
