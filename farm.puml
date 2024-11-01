@@ -1,0 +1,18 @@
+@startuml
+
+class Animal {
+- name : String
+
++ talk() : void
+}
+
+class Cat {
+
+eat() : void
+}
+
+class Dog
+
+class Main
+
+@enduml
