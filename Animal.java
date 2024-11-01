@@ -1,4 +1,4 @@
-public abstract class Animal {
+public abstract class Animal implements Talker {
   protected String name;
 
   public Animal(String name) {
